@@ -15,6 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleProjectsVS.Windows", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleProjectsVS", "SampleProjectsVS\SampleProjectsVS\SampleProjectsVS.csproj", "{452BCCCB-6753-4478-9B1A-5B97A9C28B91}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{E930A61E-EA82-4BCD-B18D-6DD1C11140DC}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.exe = NuGet.exe
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
@@ -307,6 +312,7 @@ Global
 		{D905A7E3-DFDC-4E99-93DB-FF2744FB685D}.Release UWP|iPhoneSimulator.ActiveCfg = Release UWP|x86
 		{D905A7E3-DFDC-4E99-93DB-FF2744FB685D}.Release UWP|x64.ActiveCfg = Release UWP|x64
 		{D905A7E3-DFDC-4E99-93DB-FF2744FB685D}.Release UWP|x64.Build.0 = Release UWP|x64
+		{D905A7E3-DFDC-4E99-93DB-FF2744FB685D}.Release UWP|x64.Deploy.0 = Release UWP|x64
 		{D905A7E3-DFDC-4E99-93DB-FF2744FB685D}.Release UWP|x86.ActiveCfg = Release UWP|x86
 		{D905A7E3-DFDC-4E99-93DB-FF2744FB685D}.Release UWP|x86.Build.0 = Release UWP|x86
 		{D905A7E3-DFDC-4E99-93DB-FF2744FB685D}.Release|Any CPU.ActiveCfg = Release|x86
